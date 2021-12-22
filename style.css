@@ -9,20 +9,115 @@ html, body {
 
 
 body {
-    background-color: #f1f1f1;
+    background-color: white;
 }
 
-.login-container {
-    background-color: grey;
+.content-container {
     width: 350px;
     height: 90%;
     min-height: 800px;
     margin: auto;
-    padding: 20px;
+}
+
+.login-container {
+    background-color: white;
+    padding: 0 50px 50px;
     box-sizing: border-box;
     text-align: center;
 }
 
 .login-container > img {
-    width: 85%;
+    width: 100%;
+}
+
+.login-container input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 11px;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+}
+
+.login-container input[type="submit"] {
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: cornflowerblue;
+    color: cornsilk;
+    border-radius: 5px;
+    border-style: none;
+    margin: 15px 0 30px;
+}
+
+hr {
+    border: none;
+    border-bottom: 1px solid lightslategray;
+}
+
+.login-container p {
+    margin: -10px;
+}
+
+.login-container p span {
+    background-color: white;
+    padding: 0 8px;
+    font-size: 13px;
+    color: grey;
+}
+
+.login-container a {
+    display: block;
+    margin-top: 40px;
+    text-decoration: none;
+    color: navy;
+    font-weight: 500;
+}
+
+.login-container a:nth-of-type(2) {
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.sign-up-container {
+    background-color: white;
+    padding: 0 50px 50px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 13px;
+
+}
+.sign-up-container a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+.buttons-container {
+    background-color: white;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.buttons-container img {
+    width: 35%;
+    margin-top: 15px;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 13px;
+    color: #777;
+}
+
+footer a {
+    display: block;
+    margin: 3px 7px;
+    margin-top: 15px;
+
 }
