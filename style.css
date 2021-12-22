@@ -20,6 +20,10 @@ body {
     margin-top: 40px;
 }
 
+.right-content {
+    width: 100%;
+}
+
 .login-container {
     background-color: white;
     padding: 0 50px 50px;
@@ -118,8 +122,11 @@ footer a {
     display: block;
     margin: 3px 7px;
     margin-top: 15px;
-
 }
+
+.flex > img {
+    display: none;
+  }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 750px) {
@@ -143,5 +150,32 @@ footer a {
         background-color: #f1f1f1;
         margin-top: 20px;
 
+    }
+    .flex > img {
+      display: none;
+    }
+}
+
+@media only screen and (min-width: 1050px) {
+
+
+    .content-container {
+        width: 1000px;
+    }
+
+    .flex {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .right-content {
+        width: 50%;
+
+    }
+    .flex > img {
+        width: 40%;
+        display: block;
+        margin-right: 30px;
     }
 }
